@@ -1,7 +1,7 @@
-package carbonchat.auth;
+package jserverudp;
 
-import carbonchat.auth.client.Client;
-import carbonchat.auth.packets.PingPacket;
+import jserverudp.client.Client;
+import jserverudp.packets.PingPacket;
 
 public class StartClient {
 	

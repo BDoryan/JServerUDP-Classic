@@ -1,9 +1,9 @@
-package carbonchat.auth.packets;
+package jserverudp.packets;
 
 import java.net.InetAddress;
 
-import carbonchat.auth.client.Client;
-import carbonchat.auth.server.Server;
+import jserverudp.client.Client;
+import jserverudp.server.Server;
 
 public abstract class PacketReponse extends PacketObject {
 

@@ -1,11 +1,11 @@
-package carbonchat.auth.packets;
+package jserverudp.packets;
 
 import java.net.InetAddress;
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicReference;
 
-import carbonchat.auth.client.Client;
-import carbonchat.auth.server.Server;
+import jserverudp.client.Client;
+import jserverudp.server.Server;
 
 public abstract class Packet extends PacketObject {
 	

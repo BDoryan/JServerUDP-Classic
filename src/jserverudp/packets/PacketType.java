@@ -1,4 +1,4 @@
-package carbonchat.auth.packets;
+package jserverudp.packets;
 
 public enum PacketType {
 

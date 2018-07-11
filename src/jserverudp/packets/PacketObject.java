@@ -1,4 +1,4 @@
-package carbonchat.auth.packets;
+package jserverudp.packets;
 
 import com.google.gson.Gson;
 

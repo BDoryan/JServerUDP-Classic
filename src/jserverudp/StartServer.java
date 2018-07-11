@@ -1,6 +1,6 @@
-package carbonchat.auth;
+package jserverudp;
 
-import carbonchat.auth.server.Server;
+import jserverudp.server.Server;
 
 public class StartServer {
 

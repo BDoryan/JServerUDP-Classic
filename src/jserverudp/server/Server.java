@@ -1,4 +1,4 @@
-package carbonchat.auth.server;
+package jserverudp.server;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -14,10 +14,10 @@ import com.google.gson.stream.JsonReader;
 
 import carbonchat.api.fr.Logger;
 import carbonchat.api.fr.LoggerFile;
-import carbonchat.auth.packets.Packet;
-import carbonchat.auth.packets.PacketObject;
-import carbonchat.auth.packets.PacketReponse;
-import carbonchat.auth.packets.PacketType;
+import jserverudp.packets.Packet;
+import jserverudp.packets.PacketObject;
+import jserverudp.packets.PacketReponse;
+import jserverudp.packets.PacketType;
 
 public class Server implements Runnable {
 
