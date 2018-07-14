@@ -55,7 +55,7 @@ public abstract class Packet extends PacketObject {
 		long time = System.currentTimeMillis() + timeoff;
 		while(packet.reponse == null || packet.reponse.get() == null) {
 			if((time - System.currentTimeMillis()) < 0L)
-				return new PacketReponse.PacketReponseError(PacketReponse.REPONSE_ERROR_NO_REPONSE_FOR_WAITING, "null packet reponse");
+				return new PacketReponse.PacketReponseError(PacketReponse.REPONSE_ERROR_NO_REPONSE_FOR_WAITING, "any packet of reponse");
 		}
 		waitingsReponse.remove(packet.getClass().getSimpleName());
 		PacketReponse packetReponse = packet.reponse.get();
